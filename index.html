@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Athashree Wagh — Portfolio</title>
+<meta name="description" content="Portfolio of Athashree Wagh — Computer Engineering student. Projects, skills & contact." />
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Styles + script -->
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a class="logo" href="#">Athashree Wagh</a>
+<button id="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav id="site-nav" aria-label="Main navigation">
+<ul>
+<li><a href="#hero">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+<section id="hero" class="hero">
+<div class="container hero-inner">
+<h1>Hi, I'm <span class="accent">Athshree</span></h1>
+<p class="lead">Second-year Computer Engineering student. I build web apps and projects, and I love coding and dancing.</p>
+<p class="actions">
+<a class="btn primary" href="#projects">See projects</a>
+<a class="btn" href="resume.html" target="_blank">View Resume</a>
+</p>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container about">
+<h2>About Me</h2>
+<p>
+I’m a second-year Computer Engineering student at K.K. Wagh College, passionate about web development, programming, and building interactive projects.
+I enjoy learning new technologies, turning ideas into real projects, and exploring creative solutions. In my free time, I love dancing and discovering new tech trends.
+</p>
+</section>
+
+<!-- Current Internship Section -->
+<section id="experience" class="container experience">
+<h2>Current Internship</h2>
+<div class="internship-card">
+<h3>Web Development Intern</h3>
+<p><strong>Company:</strong> Alpha Innovation</p>
+<p><strong>Duration:</strong> 2 months (Start Month – End Month)</p>
+<p>
+Currently participating in a web development internship program via LMS, learning HTML, CSS, and JavaScript.
+As part of the program, I am completing two projects: a minor project and a major project.
+Upon completion, I will receive a certificate of internship along with a recommendation letter.
+</p>
+</div>
+</section>
+
+<section id="skills" class="container skills">
+<h2>Skills</h2>
+<div class="skill-grid">
+<div class="skill">
+<h3>HTML & CSS</h3>
+<div class="skill-bar" data-skill="95"><span></span></div>
+</div>
+<div class="skill">
+<h3>JavaScript</h3>
+<div class="skill-bar" data-skill="80"><span></span></div>
+</div>
+<div class="skill">
+<h3>C Programming</h3>
+<div class="skill-bar" data-skill="85"><span></span></div>
+</div>
+</div>
+</section>
+
+<section id="projects" class="container projects">
+<h2>Projects</h2>
+<div class="project-grid">
+<article class="project-card">
+<img src="images/project1.png" alt="Screenshot of Portfolio project">
+<h3>Portfolio Website</h3>
+<p>Self-built portfolio site. <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener">Code</a> • <a href="#" target="_blank" rel="noopener">Live</a></p>
+</article>
+<!-- Add more project cards as needed -->
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container contact">
+<h2>Contact</h2>
+
+<form id="contact-form" action="https://formspree.io/f/your-id" method="POST">
+<label><span>Name</span><input type="text" name="name" required></label>
+<label><span>Email</span><input type="email" name="email" required></label>
+<label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+<button class="btn primary" type="submit">Send message</button>
+</form>
+
+<p>Or email me directly at <a href="mailto:your.email@example.com">athashreewagh333@gmail.com</a></p>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> Athashree Wagh — Built with ❤️</p>
+</div>
+</footer>
+</body>
+</html>
